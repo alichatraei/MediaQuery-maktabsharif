@@ -49,10 +49,20 @@ body {
 @media screen and (min-width: 401px) and (max-width: 960px) {
   .container {
     height: 100%;
-    flex-flow: row wrap;
     padding: 1rem 0;
+    flex-flow: row wrap;
   }
   .square {
     margin: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    height: 100%;
+    flex-flow: column;
+    padding: 1rem 0;
+  }
+  .square {
+    margin: 1rem 0;
   }
 }

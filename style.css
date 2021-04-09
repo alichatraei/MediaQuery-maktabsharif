@@ -1,6 +1,6 @@
 @font-face {
   font-family: "aban";
-  src: url(./assets/Aban.ttf) format(truetype);
+  src: url(./assets/Aban.ttf);
 }
 html,
 body {
@@ -8,8 +8,33 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 * {
   box-sizing: border-box;
 }
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  color: white;
+  width: 20rem;
+  height: 20rem;
+  background-color: #fab;
+  font-size: 2rem;
+  font-family: "aban";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.square:hover {
+  border-radius: 1rem;
+  transform: scale(1.1);
+}

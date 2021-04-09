@@ -33,6 +33,7 @@ body {
   transition: all 1s ease;
   cursor: pointer;
   margin: 0 1rem;
+  text-align: center;
 }
 .square:hover {
   border-radius: 1rem;
@@ -42,5 +43,16 @@ body {
 @media screen and (min-width: 961px) {
   .container {
     width: 100%;
+  }
+}
+/* Tablet Styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  .container {
+    height: 100%;
+    flex-flow: row wrap;
+    padding: 1rem 0;
+  }
+  .square {
+    margin: 1rem;
   }
 }

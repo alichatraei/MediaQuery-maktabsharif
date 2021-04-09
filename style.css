@@ -36,8 +36,8 @@ body {
   text-align: center;
 }
 .square:hover {
-  border-radius: 1rem;
-  transform: scale(1.1);
+  border-radius: 1rem !important;
+  transform: scale(1.1) !important;
 }
 /* Desktop Styles */
 @media screen and (min-width: 961px) {

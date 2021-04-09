@@ -24,7 +24,7 @@ body {
   color: white;
   width: 20rem;
   height: 20rem;
-  background-color: #fab;
+  background-color: #457b9d;
   font-size: 2rem;
   font-family: "aban";
   display: flex;
@@ -37,4 +37,10 @@ body {
 .square:hover {
   border-radius: 1rem;
   transform: scale(1.1);
+}
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+  .container {
+    width: 100%;
+  }
 }
